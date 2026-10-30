@@ -661,13 +661,13 @@
         "uuid": "7671b92d-e0cc-45f9-a088-d307e5d22382"
       }
     ],
-    "used_designators": "R1-3,IC1-2,#PWR1-8,C1-3",
+    "used_designators": "R1-3,IC1-2,CPAD1-4,CPAD12-13,CPAD15,CPAD20,CPAD24,CPAD27,#PWR1-14,C1-3,HS1,Q1",
     "variants": []
   },
   "sheets": [
     [
       "7671b92d-e0cc-45f9-a088-d307e5d22382",
-      "PCB352"
+      "PCB354"
     ]
   ],
   "text_variables": {},

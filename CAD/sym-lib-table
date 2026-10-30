@@ -1,4 +1,4 @@
 (sym_lib_table
 	(version 7)
-	(lib (name "MET") (type "KiCad") (uri "D:/GIT/HW/KiCadSharedLib/MET.kicad_sym") (options "") (descr ""))
+	(lib (name "MET") (type "KiCad") (uri "C:/Users/marco/Documents/Data/Progetti-GIT/HW/KiCadSharedLib/MET.kicad_sym") (options "") (descr ""))
 )

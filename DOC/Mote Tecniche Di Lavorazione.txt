@@ -1,0 +1,8 @@
+- Scheda spessore 1mm
+- 4 strati
+- Pads Castellati sul Bordo
+- Blind Vias
+	- 0.6 - 0.3 se deve prendere il primo e secondo strato
+	- 1 - 0.7 se deve raggiungere anche il terzo strato (a circa 0.7mm di distanza, rapporto 1:1 con la profondità)
+- Lasciare sul lato alto e basso una distanza di 0.35mm per consentire il taglio standard e una 
+	pannellatura per il montaggio a macchina 
