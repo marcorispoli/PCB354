@@ -2357,7 +2357,7 @@
 		)
 		(uuid "1cb0edef-0492-4ee4-92a1-b110de07fd17")
 	)
-	(label "O1B"
+	(label "O1A"
 		(at 171.45 74.93 0)
 		(effects
 			(font
@@ -2367,7 +2367,7 @@
 		)
 		(uuid "2389cee4-bd45-44d3-ab79-b4c847874632")
 	)
-	(label "O1A"
+	(label "O1B"
 		(at 171.45 77.47 0)
 		(effects
 			(font
@@ -2437,7 +2437,7 @@
 		)
 		(uuid "6b1212e2-e562-4762-9829-7753c7e2c1ce")
 	)
-	(label "O2B"
+	(label "O2A"
 		(at 171.45 82.55 0)
 		(effects
 			(font
@@ -2547,7 +2547,7 @@
 		)
 		(uuid "c18a6926-9a05-4b85-818c-7b04758019e0")
 	)
-	(label "O2A"
+	(label "O2B"
 		(at 171.45 80.01 0)
 		(effects
 			(font
@@ -3562,14 +3562,15 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 255.27 99.06 0)
+		(property "Value" "GND1"
+			(at 257.81 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4344,7 +4345,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
 			(at 67.6148 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -4720,14 +4721,15 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 80.01 165.1 0)
+		(property "Value" "GND1"
+			(at 82.55 161.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
