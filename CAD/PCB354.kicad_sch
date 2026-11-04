@@ -4,6 +4,10 @@
 	(generator_version "10.0")
 	(uuid "7671b92d-e0cc-45f9-a088-d307e5d22382")
 	(paper "A4")
+	(title_block
+		(title "ALTERNATIVA A3984")
+		(rev "00")
+	)
 	(lib_symbols
 		(symbol "Device:R"
 			(pin_numbers
@@ -1612,6 +1616,16 @@
 			)
 		)
 		(uuid "e4235cca-dd9d-43de-b381-e55d9bb11d6a")
+	)
+	(text "Inversione segnale di Enable"
+		(exclude_from_sim no)
+		(at 251.46 50.546 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eacb2de2-c3ad-4a5e-b4f2-4283cbcb9d30")
 	)
 	(text "OUT1B\n"
 		(exclude_from_sim no)

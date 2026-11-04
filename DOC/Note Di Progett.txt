@@ -1,0 +1,15 @@
+Preparazione di un Assy dedicato per la PCB/244A-1
+
+1) C21 NON MONTARE
+2) C20 e C22 = 100uF stesso case
+3) C25 = 22nF stesso case
+4) C24 = 220nF stesso case
+5) L4 = NON  MONTARE
+6) R40, R41 = NON MONTARE
+7) R39 e R46 per impostare uguale corrente di pico sul driver:
+
+- A3984 con Vref = 3.4V e Rs = 330m ohm -> Itrip = Vref / (8*Rs) = 1.28A
+
+Impostare la stessa corrente con DRV8434 If = Vref/1.32 -> Vref = 1.28*1.32 = 1.68V
+
+R39 = 2.7 k
