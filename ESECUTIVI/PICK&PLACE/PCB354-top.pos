@@ -1,0 +1,10 @@
+### Footprint positions - created on 2026-11-04T11:07:19 ###
+### Printed by KiCad version 10.0.4
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val          Package                               PosX       PosY       Rot  Side
+IC1       DRV8434RGER  DRV8434_QFN50P400X400X100-25N-D   176.1000   -64.5000  -90.0000  top
+Q1        NTA4153NT1G  MOS_NTA4153NT1G_SC75-3            185.2500   -65.7500  -90.0000  top
+R1        10K          R_0603_1608Metric                 181.9500   -66.3000  -90.0000  top
+R2        10K          R_0603_1608Metric                 184.8500   -63.4500    0.0000  top
+## End

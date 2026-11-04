@@ -1624,6 +1624,12 @@
 		(uuid "f92655b6-3aaf-4a2a-b15e-230a32208dc1")
 	)
 	(junction
+		(at 255.27 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "043f29b2-89bf-407f-86a6-de63345824a1")
+	)
+	(junction
 		(at 224.79 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1665,6 +1671,12 @@
 		(color 0 0 0 0)
 		(uuid "d3b567f7-4684-4d5a-9ae1-5a898dc28beb")
 	)
+	(junction
+		(at 246.38 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec1c3ef4-8f9c-4f12-949b-c85d54cdc3da")
+	)
 	(no_connect
 		(at 210.82 82.55)
 		(uuid "1ed650f0-2044-4857-bddf-5fb14ec60f09")
@@ -1676,6 +1688,16 @@
 	(no_connect
 		(at 210.82 80.01)
 		(uuid "f67f868c-d783-44df-bb01-c917f173cef8")
+	)
+	(wire
+		(pts
+			(xy 255.27 66.04) (xy 246.38 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0766baba-f7bc-4d89-bd86-8873ae5d47aa")
 	)
 	(wire
 		(pts
@@ -1939,13 +1961,23 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 64.77) (xy 255.27 67.31)
+			(xy 255.27 64.77) (xy 255.27 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "44e3d349-ba20-4a41-b423-5815ed757b30")
+	)
+	(wire
+		(pts
+			(xy 246.38 87.63) (xy 247.65 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44f3035c-2dd8-49b5-aa44-a7361cd27877")
 	)
 	(wire
 		(pts
@@ -1996,6 +2028,16 @@
 			(type default)
 		)
 		(uuid "6b0dfe09-1886-497b-a7be-fcbee5c64186")
+	)
+	(wire
+		(pts
+			(xy 246.38 66.04) (xy 246.38 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6daddcf9-e707-4036-9243-3a01a51383b6")
 	)
 	(wire
 		(pts
@@ -2139,6 +2181,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 66.04) (xy 255.27 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa996a9a-a778-4ceb-9e85-05cd0940c5e6")
+	)
+	(wire
+		(pts
 			(xy 187.96 46.99) (xy 187.96 52.07)
 		)
 		(stroke
@@ -2269,6 +2321,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 74.93) (xy 246.38 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9718286-a339-45e6-b1cc-47740c70b274")
+	)
+	(wire
+		(pts
 			(xy 193.04 104.14) (xy 224.79 104.14)
 		)
 		(stroke
@@ -2319,7 +2381,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 87.63) (xy 247.65 87.63)
+			(xy 241.3 87.63) (xy 246.38 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2573,9 +2635,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "193051fd-6c34-4352-9a3a-ddee7eb8a415")
 		(property "Reference" "CPAD11"
@@ -2644,14 +2706,96 @@
 		)
 	)
 	(symbol
-		(lib_id "MET:CastellatedPad")
-		(at 69.85 152.4 0)
+		(lib_id "Device:R")
+		(at 246.38 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28ac8e0c-2255-412a-9be6-29377727d51d")
+		(property "Reference" "R2"
+			(at 248.92 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 248.92 72.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 244.602 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor 0603"
+			(at 246.38 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2399722a-5b3b-45b3-8a31-6fa3448eeba6")
+		)
+		(pin "2"
+			(uuid "124ad357-378c-45cf-8b6a-a06b29f56b5a")
+		)
+		(instances
+			(project "PCB354"
+				(path "/7671b92d-e0cc-45f9-a088-d307e5d22382"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MET:CastellatedPad")
+		(at 69.85 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "3321ba3f-874c-4c19-b6f5-adc03ed51e2d")
 		(property "Reference" "CPAD27"
@@ -2725,9 +2869,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "520f9acb-e663-43ab-9b54-43e9e7b6f903")
 		(property "Reference" "CPAD23"
@@ -2801,9 +2945,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "5ab55363-e14f-45ec-8818-5837c4a29e21")
 		(property "Reference" "CPAD18"
@@ -3165,9 +3309,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "638051c8-c8fc-452f-a79c-b7815619dec2")
 		(property "Reference" "CPAD2"
@@ -3241,9 +3385,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "67b5027e-a1ec-4b36-bd16-35b33cce2f3f")
 		(property "Reference" "CPAD15"
@@ -3317,9 +3461,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "6d699a49-e34b-436b-b9f7-318ded56175f")
 		(property "Reference" "CPAD1"
@@ -3393,9 +3537,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "6ef7bdbe-066a-4169-a630-210b55ec9f31")
 		(property "Reference" "CPAD10"
@@ -3469,9 +3613,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "79484b0b-2f1c-4976-9d30-249ff3e0fbaa")
 		(property "Reference" "CPAD14"
@@ -3624,9 +3768,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "85fda90d-63f6-4941-8b21-b14169e9b67c")
 		(property "Reference" "CPAD3"
@@ -4085,9 +4229,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "964096d9-2c95-46bd-8f2d-f88da7c87e8e")
 		(property "Reference" "CPAD12"
@@ -4317,9 +4461,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb979ca3-a04b-4691-93c4-5a095427484d")
@@ -4552,9 +4696,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "dc9e2e87-ddd5-4482-9343-107d78912b98")
 		(property "Reference" "CPAD19"
@@ -4628,9 +4772,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "e4a9cca3-0571-4c35-b7a1-0329df9dba92")
 		(property "Reference" "CPAD26"
@@ -4783,9 +4927,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "f0adaa37-b003-4c0e-933e-eb76ad9bbe31")
 		(property "Reference" "CPAD22"
