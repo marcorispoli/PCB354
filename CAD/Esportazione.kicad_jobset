@@ -1,0 +1,114 @@
+{
+  "jobs": [
+    {
+      "description": "",
+      "id": "051ade12-b3cb-4cd4-ace1-291e1d5e1b48",
+      "settings": {
+        "compression": "tgz",
+        "description": "",
+        "drawing_sheet": "",
+        "output_filename": "esecutivi.tgz",
+        "precision": 4,
+        "units": "mm",
+        "variant": ""
+      },
+      "type": "pcb_export_odb"
+    },
+    {
+      "description": "",
+      "id": "b925aac3-8178-4471-98ac-700cadf111d2",
+      "settings": {
+        "description": "",
+        "output_filename": ""
+      },
+      "type": "pcb_export_ipcd356"
+    },
+    {
+      "description": "",
+      "id": "ea59fd0d-0d03-4d8b-9c2d-b3d5e914acc4",
+      "settings": {
+        "description": "",
+        "exclude_bom": false,
+        "exclude_dnp": false,
+        "exclude_footprints_with_th": false,
+        "format": "ascii",
+        "gerber_board_edge": true,
+        "negate_bottom_x": false,
+        "output_filename": "Posizionamento",
+        "side": "both",
+        "single_file": false,
+        "smd_only": false,
+        "units": "mm",
+        "use_drill_place_file_origin": true,
+        "variant": ""
+      },
+      "type": "pcb_export_pos"
+    },
+    {
+      "description": "",
+      "id": "f2fb5618-182d-4746-bf5b-fceeec9572bc",
+      "settings": {
+        "bom_format_preset_name": "",
+        "bom_preset_name": "",
+        "description": "",
+        "exclude_dnp": false,
+        "field_delimiter": ";",
+        "fields_group_by": [],
+        "fields_labels": [
+          "#",
+          "Qtà",
+          "Riferimento",
+          "Valore",
+          "Impronta",
+          "Specifiche",
+          "Descrizione",
+          "Height",
+          "Manufacturer_Name",
+          "Manufacturer_Part_Number",
+          "Mouser Part Number",
+          "Mouser Price/Stock"
+        ],
+        "fields_ordered": [
+          "${ITEM_NUMBER}",
+          "${QUANTITY}",
+          "Reference",
+          "Value",
+          "__Footprint",
+          "__Datasheet",
+          "__Description",
+          "__Height",
+          "__Manufacturer_Name",
+          "__Manufacturer_Part_Number",
+          "__Mouser Part Number",
+          "__Mouser Price/Stock"
+        ],
+        "filter_string": "",
+        "group_symbols": true,
+        "keep_line_breaks": false,
+        "keep_tabs": false,
+        "output_filename": "PCB354.csv",
+        "ref_delimiter": "",
+        "ref_range_delimiter": "",
+        "sort_asc": true,
+        "sort_field": "${ITEM_NUMBER}",
+        "string_delimiter": "",
+        "variant_names": []
+      },
+      "type": "sch_export_bom"
+    }
+  ],
+  "meta": {
+    "version": 1
+  },
+  "outputs": [
+    {
+      "description": "CartellaExport",
+      "id": "1f447be9-26fb-4373-a633-e364f9001431",
+      "only": [],
+      "settings": {
+        "output_path": "C:\\Users\\marco\\Documents\\Data\\Progetti-GIT\\HW\\pcb-26-354\\CAD\\EXPORT\\"
+      },
+      "type": "folder"
+    }
+  ]
+}
